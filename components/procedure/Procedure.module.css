@@ -1,0 +1,53 @@
+.title {
+    font-size: 45px;
+}
+
+.p {
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+
+.ital {
+    font-style: italic;
+    font-size: 25px;
+    color: darkgray;
+}
+
+.button {
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.margin {
+    margin-left: 10px;
+}
+
+.margins {
+    margin-right: 100px;
+}
+
+.number_circle {
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    top: 25%;
+}
+
+.image {
+    border-radius: 25px;
+    position: absolute;
+    top: 12%;
+    left: 17%;
+}
+
+.spacing {
+    padding-top: 50px;
+}
