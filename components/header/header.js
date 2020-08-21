@@ -22,7 +22,9 @@ function Header() {
             <Col sm={1}>
                 <Nav.Link href="#login" className={styles.head}>Login</Nav.Link>
             </Col>
+            <p className={styles.p}></p>
         </Navbar>
+        
     )
 }
 

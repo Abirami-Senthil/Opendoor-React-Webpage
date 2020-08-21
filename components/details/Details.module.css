@@ -8,13 +8,14 @@
 }
 
 .p {
-    font-size: 20px;
+    font-size: 23px;
+    color: gray;
 }
 
 .span {
     color: #082768;
 }
 
-.text{
+.text {
     color: #299ADC;
 }

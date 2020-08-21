@@ -5,7 +5,7 @@ function Intro() {
     return (
         <Row md={2}>
             <Col>
-                <p><Image className={styles.image} src="/opendoor.jpg" width="500" height="500" /></p>
+                <p><Image className={styles.image} src="/opendoor.jpg" width="500" height="600" /></p>
             </Col>
 
             <Col>

@@ -38,7 +38,7 @@ function Procedure() {
             </Col>
 
             <Col className={styles.margin} sm={6}>
-                <p><Image className={styles.image} src="/opendoor3.jpg" /></p>
+                <p><Image className={styles.image} src="/opendoor3.jpg" width="500px" height="600px"/></p>
             </Col>
         </Row>
     )
