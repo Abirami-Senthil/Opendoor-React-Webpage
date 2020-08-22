@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout from '../components/layout'
+import Layout from '../components/layout/layout'
 import Intro from '../components/intro/intro'
 import Details from '../components/details/details'
 import Procedure from '../components/procedure/procedure'
