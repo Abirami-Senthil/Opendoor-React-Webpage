@@ -5,9 +5,9 @@ import styles from './Header.module.css'
 
 function Header() {
     return (
-        <Navbar bg="white" variant="light">
+        <Navbar bg="white" variant="light" fixed = "top">
             <Col sm={1}>
-                <Navbar.Brand href="#menu"><FontAwesomeIcon icon={faBars} /></Navbar.Brand>
+                <Navbar.Brand href="#menu"><FontAwesomeIcon icon={faBars}/></Navbar.Brand>
             </Col>
             <Col sm={4}>
                 <Nav>
