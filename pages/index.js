@@ -7,9 +7,9 @@ import styles from './Index.module.css'
 
 export default function Home() {
   return (
-    <div className="container">
-      <div className={styles.box}>
-        <Layout>
+    <div className={styles.box}>
+      <Layout>
+        <div className="container">
           <p className={styles.navpad}></p>
           <Intro />
           <p className={styles.p}></p>
@@ -17,8 +17,8 @@ export default function Home() {
           <p className={styles.p}></p>
           <Procedure />
           <p className={styles.p}></p>
-        </Layout>
-      </div>
+        </div>
+      </Layout>
     </div>
   )
 }

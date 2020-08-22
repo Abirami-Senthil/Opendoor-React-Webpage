@@ -5,8 +5,8 @@
 .navpad {
     padding-bottom: 130px;
 }   
-
+ 
 .box {
-    background:linear-gradient( rgb(243, 245, 247),white);
-    background-color:rgb(237, 243, 245);
+    background: rgb(255,255,255); 
+    background: linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(174, 233, 243, 0.192) 100%); 
 }   

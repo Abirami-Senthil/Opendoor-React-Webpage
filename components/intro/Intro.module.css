@@ -4,7 +4,7 @@
 }
 
 .text {
-    font-size: 23px;
+    font-size: 21px;
     color: gray;
     padding-bottom: 20px;
 }
@@ -14,6 +14,7 @@
     padding-left: 35px;
     padding-right: 35px;
     font-size: x-large ;
+    box-shadow: 5px 10px 10px #dddddd;
 }
 
 .image {

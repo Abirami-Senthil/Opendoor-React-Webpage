@@ -9,14 +9,15 @@ function Footer() {
     return (
         <div className={styles.footer}>
             <Container className={styles.footerText}>
+                <hr className={styles.hr}></hr>
                 <Row md={4}>
                     <Col>
-                        <strong>SERVICE</strong>
+                        <strong className={styles.strong}>SERVICE</strong>
                         <li>Sell your home</li>
                         <li>Buy a home</li>
                         <li>Trade-in</li>
                         <br />
-                        <strong>CUSTOMERS</strong>
+                        <strong className={styles.strong}>CUSTOMERS</strong>
                         <li>Home seller</li>
                         <li>Home buyer</li>
                         <li>Real estate agents</li>
@@ -25,7 +26,7 @@ function Footer() {
                     </Col>
 
                     <Col>
-                        <strong>ABOUT US</strong>
+                        <strong className={styles.strong}>ABOUT US</strong>
                         <li>Who are we</li>
                         <li>Contact us</li>
                         <li>Jobs</li>
@@ -33,14 +34,14 @@ function Footer() {
                         <li>Press</li>
                         <li>Pricing</li>
                         <br />
-                        <strong>RESOURCES</strong>
+                        <strong className={styles.strong}>RESOURCES</strong>
                         <li>Guides</li>
                         <li>Blog</li>
                         <li>FAQs</li>
                     </Col>
 
                     <Col>
-                        <strong>ABOUT US</strong>
+                        <strong className={styles.strong}>ABOUT US</strong>
                         <li>Who are we</li>
                         <li>Contact us</li>
                         <li>Jobs</li>
@@ -48,14 +49,14 @@ function Footer() {
                         <li>Press</li>
                         <li>Pricing</li>
                         <br />
-                        <strong>RESOURCES</strong>
+                        <strong className={styles.strong}>RESOURCES</strong>
                         <li>Guides</li>
                         <li>Blog</li>
                         <li>FAQs</li>
                     </Col>
 
                     <Col>
-                        <strong><p>GET THE APP</p></strong>
+                        <strong className={styles.strong}><p>GET THE APP</p></strong>
                         <p><Image src="/app_store.png" width="170" height="50" rounded /></p>
                         <p><Image src="/google_play.png" width="170" height="50" rounded /></p>
                     </Col>

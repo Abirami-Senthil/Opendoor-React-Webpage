@@ -1,6 +1,6 @@
 .icons {
     color: #299ADC;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .strong {
@@ -8,7 +8,7 @@
 }
 
 .p {
-    font-size: 23px;
+    font-size: 21px;
     color: gray;
 }
 
@@ -18,4 +18,21 @@
 
 .text {
     color: #299ADC;
+}
+
+.circle {
+    background-color: rgb(241, 245, 247);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    display: inline-block;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.padding {
+    padding-bottom: 5x;
 }

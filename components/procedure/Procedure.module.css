@@ -5,20 +5,22 @@
 .p {
     font-size: 30px;
     font-weight: bold;
-    color: gray;
+    color: rgb(109, 109, 109);
+    line-height: 35px;
 }
 
 .ital {
     font-style: italic;
     font-size: 25px;
-    color: darkgray;
+    color: rgb(131, 131, 131);
 }
 
 .button {
     border-radius: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
     font-size: x-large ;
+    box-shadow: 5px 10px 10px #dddddd;
 }
 
 .margin {
@@ -26,7 +28,7 @@
 }
 
 .margins {
-    margin-right: 100px;
+    margin-right: 90px;
 }
 
 .number_circle {
@@ -47,5 +49,9 @@
 }
 
 .spacing {
-    padding-top: 50px;
+    padding-top: 20px;
+}
+
+.row {
+    padding-bottom: 50px;
 }

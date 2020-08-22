@@ -7,8 +7,8 @@ function Procedure() {
 
             <Col className={styles.margins}>
                 <p className={styles.title}><strong>How it works</strong></p>
-                <br />
-                <Row>
+                <p className={styles.spacing}></p>
+                <Row className={styles.row}>
                     <Col md={2}>
                         <span className={styles.number_circle}>1</span>
                     </Col>
@@ -16,16 +16,16 @@ function Procedure() {
                         <div className={styles.p}>Buy your next home with our cash</div>
                     </Col>
                 </Row>
-                <Row>
+                <Row className={styles.row}>
                     <Col md={2}>
                     <span className={styles.number_circle}>2</span>
                     </Col>
                     <Col>
                     <div className={styles.p}>Move in on your timeline</div>
-                    <p className={styles.ital}> - Even before you sell</p>
+                    <p className={styles.ital}> - even before you sell</p>
                     </Col>
                 </Row>
-                <Row>
+                <Row className={styles.row}>
                     <Col md={2}>
                         <span className={styles.number_circle}>3</span>
                     </Col>
