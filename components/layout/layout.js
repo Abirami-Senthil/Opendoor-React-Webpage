@@ -6,10 +6,8 @@ function Layout({ children }) {
     return (
         <div>
             <Header />
-            <p className={styles.margin}>
-                <div>{children}</div>
+                <div className={styles.margin}>{children}</div>
                 <Footer />
-            </p>
         </div>)
 }
 
