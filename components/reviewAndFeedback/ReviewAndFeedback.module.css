@@ -1,0 +1,74 @@
+.card1 {
+  border-radius: 25px;
+  height: 500px;
+  width: 550px;
+  padding: 40px;
+  color: white;
+}
+
+.card2 {
+  border-radius: 25px;
+  height: 500px;
+  width: 550px;
+  padding: 40px;
+}
+
+.container {
+  padding-top: 70px;
+  padding-bottom: 150px;
+}
+
+.icon {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.card1text {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.image {
+  border-radius: 200px;
+}
+
+.contact {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.link{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.card2title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #082768;
+}
+
+.price {
+  color: #082768;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.discountprice {
+  color: gray;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.title {
+  color: gray;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.subtitle {
+  color: lightgray;
+  font-size: 17px;
+}
