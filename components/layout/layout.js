@@ -5,9 +5,8 @@ import styles from './Layout.module.css'
 function Layout({ children }) {
     return (
         <div>
-            <Header />
-                <div className={styles.margin}>{children}</div>
-                <Footer />
+            <div className={styles.margin}>{children}</div>
+            <Footer />
         </div>)
 }
 
