@@ -1,0 +1,12 @@
+.p {
+  padding-bottom: 70px;
+}
+
+.navpad {
+  padding-bottom: 130px;
+}   
+
+.box {
+  background: rgb(255,255,255); 
+  background: linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(174, 233, 243, 0.192) 100%); 
+}   
